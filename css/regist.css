@@ -1,0 +1,119 @@
+img {
+	vertical-align: middle;
+}
+.regist_header {
+	height: 84px;
+	padding-top: 15px;
+	border-bottom:2px solid #C40000;	
+	box-sizing:border-box;
+}
+form.w {
+	width: 1198px;
+	height: 520px;
+	margin-top: 20px;
+	border:1px solid #ccc;
+}
+.hd {
+	height: 40px;
+	background-color: #EDEDED;
+	border-bottom: 1px solid #ccc;
+}
+.hd .fl {
+	line-height: 40px;
+	font-size: 18px;
+	color:#666;
+}
+.hd .fr {
+	margin-right: 10px;
+	line-height: 40px;
+	font-size: 14px;
+	color:#666;
+}
+.bd ul {
+	width: 580px;
+	margin: 50px auto 0;
+}
+.bd li {
+	margin-right: 10px;
+	float: left;
+}
+.bd .first {
+	width: 100px;
+	/* height: 40px; */
+
+}
+.bd .first p {
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 10px;
+	text-align: right;
+}
+.bd {
+	height: 400px;
+}
+.bd ul {
+	overflow: hidden;
+}
+.bd div {
+	width: 238px;
+	height: 36px;
+	margin-top: 10px;
+}
+.bd input {
+	display: block;
+	width: 238px;
+	height: 34px;
+	border:1px solid #ccc;
+}
+.safe {
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #ccc;
+	text-align: right;
+}
+.safe span {
+	display: inline-block;
+	width: 36px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+.ruo {
+	background-color: #F80000;
+}
+.zhong {
+	background-color: #00BA4C;
+}
+.qiang {
+	background-color: #FF8A00;
+}
+.second .agree input {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-top: 3px;
+}
+.second .agree {
+	margin:30px 0;
+	font-size: 12px;
+}
+.second button {
+	display: block;
+	width: 200px;
+	height: 34px;
+	margin: 0 auto;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background-color: #DE0000;
+}
+.third p {
+	height: 36px;
+	margin-top: 10px;
+	line-height: 36px;
+	text-align: left;
+	font-size: 12px;
+}

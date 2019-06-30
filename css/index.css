@@ -1,0 +1,291 @@
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.main_focus {
+	position: relative;
+	float: left;
+	width: 720px;
+	height: 455px;
+}
+.main_focus img {
+	float: left;
+	width: 720px;
+	height: 455px;
+}
+.arrow_l,
+.arrow_r{
+	width: 24px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(255, 255, 255, .3);
+}
+.arrow_l {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	padding-left: 2px;
+	box-sizing:border-box;
+}
+.arrow_r {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	padding-left: 10px;
+	box-sizing:border-box;
+}
+.arrow_l a,
+.arrow_r a {
+	display: block;
+	color: white;
+}
+.main_focus .circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	border:2px solid rgba(225, 225, 225, .3);
+	border-radius: 50%;
+	margin: 0 2px;
+}
+.circle .current {
+	background-color: #fff;
+}
+.main_newsflash {
+	float: left;
+	width: 250px;
+	height: 455px;
+	margin-left: 10px;
+
+	box-sizing:border-box;
+}
+.news {
+	height: 163px;
+	border:1px solid #ccc;
+}
+.news_hd {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 10px;
+	border-bottom: 1px dotted #ccc;
+}
+.news_hd h5 {
+	float:left;
+	font-size: 14px;
+	color: #666;
+	font-weight: 400;
+}
+.news_hd p {
+	float:right;
+	font-size: 12px;
+}
+.news_bd {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.news_bd li {
+	height: 23px;
+}
+.lifeservice {
+	height: 208px;
+	overflow: hidden;
+	border:1px solid #ccc;
+	border-top: none;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice li {
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.lifeservice .jian{
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.lifeservice .service_icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background:url(../img/icons.png) no-repeat -18px -16px;
+}
+.bargin {
+	height: 75px;
+	margin-top: 5px;
+}
+.recomend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recomend_hd {
+	float: left;
+	width: 200px;
+	height: 163px;
+	padding-top: 30px;
+	background-color: #5c5251;
+	text-align: center;
+	box-sizing: border-box;
+}
+.recomend_hd h3 {
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 400;
+}
+.recomend_bd {
+	float: left;
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recomend_bd ul {
+	height: 163px;
+	padding: 10px 0;
+	box-sizing:border-box;
+}
+.recomend_bd li {
+	float: left;
+	width: 249px;
+	border-right: 1px solid #ccc;
+	box-sizing:border-box;
+}
+.recomend_bd a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.recomend_bd .last {
+	border-right: none;
+}
+.clearfix {
+	overflow: hidden;
+}
+.con_dt {
+	border-bottom:2px solid red;
+}
+.con_dt h4 {
+	float: left;
+	font-size: 20px;
+	color: red;
+}
+.con_dt ul {
+	float: right;
+}
+.con_dt li {
+	float: left;
+}
+.con_dt li a {
+	margin: 0 10px;
+}
+.con_dd {
+	width: 1200px;
+	height: 360px;
+}
+.con_dd ul {
+	width: 1212px;
+	overflow: hidden;
+}
+.con_dd li {
+	float: left;
+	overflow: hidden;
+}
+.con_dd_top {
+	width: 219px;
+	height: 180px;
+	border-bottom: 1px solid #ccc;
+	transition: all .2s;
+}
+.con_dd_down {
+	transition: all .2s;
+}
+.w209 {
+	width: 209px;
+	height: 360px;
+	background-color: #FCFCFC;
+	transition: all .2s;
+}
+.w329 {
+	width: 329px;
+	height: 359px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	transition: all .2s;
+}
+.w219 {
+	width: 219px;
+	height: 359px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	height: 359px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.con_dd .w209 ul {
+	width: 209px;
+}
+.w209 li {
+	float: left;
+	width: 86px;
+	height: 33px;
+	line-height: 33px;
+	margin-left: 5px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+
+}
+.w209 div{
+	margin-top: 20px;
+	transition: all .2s;
+}
+.w209 div:hover,
+.con_dd_top:hover,
+.con_dd_down:hover,
+.w329 div:hover,
+.caidian div:hover{
+	margin-left: 2px;
+}
+.fixtab {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -670px;
+	width: 65px;
+	height: 34px;
+}
+.fixtab li {
+	width: 65px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+
+}
+.fixtab .current {
+	background-color: #FF0000;
+}
+.fixtab .current a {
+	color:#fff;
+}

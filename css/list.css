@@ -1,0 +1,126 @@
+.sk {
+	position: absolute;
+	left: 186px;
+	top: 38px;
+	width: 68px;
+	height: 38px;
+	line-height: 52px;
+	padding-left: 10px;
+	text-align: center;
+	border-left: 1px solid #DF0000;
+}
+.nav_three {
+	float: left;
+}
+.nav_three li {
+	float: left;
+	padding-top: 10px;
+	margin: 0 10px;
+}
+.nav_three li a {
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+}
+.sk_con {
+	margin-top: 30px;
+}
+.sk_con li {
+	position: relative;
+	float: left;
+	width: 288px;
+	height: 458px;
+	margin: 0 10px 10px 0;
+	font-size: 12px;
+	border:1px solid #fff;
+}
+.sk_con li:hover {
+	border:1px solid red;
+}
+.plan .bar {
+	width: 130px;
+	height: 10px;
+	margin: 5px 5px;
+	border:1px solid red;
+	border-radius: 5px;
+}
+.inbar {
+	width: 86%;
+	height: 10px;
+	background-color:red;
+}
+.plan p,
+.bar {
+	float: left;
+}
+.plan a {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 288px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #C40000;
+	font-size: 20px;
+	color: #fff;
+}
+.sk_con p {
+	font-size: 14px;
+	color: #666;
+}
+.price {
+	font-size: 20px;
+	color: red;
+}
+.price del {
+	font-size: 16px;
+	color:#ccc;
+}
+.num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border:1px solid #ccc;
+	text-align: center;
+	background-color: #F6F6F6;
+}
+.ye {
+	margin: 30px 0;
+	text-align: center;
+}
+.num,
+.skip {
+	display: inline-block;
+}
+.skip p {
+	display: inline-block;
+}
+.skip input {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	transition: all .3s;
+}
+.skip input:focus {
+	width: 200px;
+	border: 1px solid skyblue;
+}
+.skip button {
+	width: 36px;
+	height: 36px;
+	background-color: #F7F7F7;
+	border: 1px solid #ccc;
+}
+.next a {
+	text-align: center;
+}
+.num .shang,
+.num .next {
+	width: 83px;
+	height: 36px;
+	border:1px solid #ccc;
+
+}
